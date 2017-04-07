@@ -1,10 +1,10 @@
 from theatre_ag import SynchronizingClock, TaskQueueActor
-from theatre_market import ContinuousOrderDrivenMarket, OrderBookClearingWorkflow, Stock, RandomTraderWorkflow, \
+from pagora import ContinuousOrderDrivenMarket, OrderBookClearingWorkflow, Stock, RandomTraderWorkflow, \
     TradeRange, LimitBuyOrder, LimitSellOrder, SafeTradingAccount
 
 from random import Random
 
-clock = SynchronizingClock(max_ticks=50000)
+clock = SynchronizingClock(max_ticks=10000)
 
 random = Random(1)
 
@@ -36,7 +36,7 @@ trader_workflow = RandomTraderWorkflow(
         lemons: TradeRange(1, 3, -3, 3, random)
     },
     buy_ranges={
-        lemons: TradeRange(1, 3, -2, 4, random)
+        lemons: TradeRange(1, 3, -1, 5, random)
     }
 )
 

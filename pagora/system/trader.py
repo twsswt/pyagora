@@ -1,4 +1,4 @@
-from theatre_market.system import TradeExecutionException
+from pagora.system import TradeExecutionException
 
 
 class LimitOrderException(Exception):
