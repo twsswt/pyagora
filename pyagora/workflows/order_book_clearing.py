@@ -1,4 +1,4 @@
-from pagora.system import Trade, TradeExecutionException
+from pyagora.system import Trade, TradeExecutionException
 from theatre_ag import default_cost
 
 

@@ -1,6 +1,6 @@
 from theatre_ag import default_cost
 
-from pagora.system import LimitSellOrder, LimitBuyOrder
+from pyagora.system import LimitSellOrder, LimitBuyOrder
 
 
 class TradeRange(object):

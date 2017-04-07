@@ -1,4 +1,4 @@
-from pagora.system import TradeExecutionException
+from pyagora.system import TradeExecutionException
 
 
 class LimitOrderException(Exception):

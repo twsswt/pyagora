@@ -3,7 +3,7 @@ import unittest
 from mock import Mock
 
 from theatre_ag import SynchronizingClock
-from pagora.system import LimitBuyOrderBook, LimitBuyOrder, Stock
+from pyagora.system import LimitBuyOrderBook, LimitBuyOrder, Stock
 
 
 class LimitBuyOrderBookTestCase(unittest.TestCase):

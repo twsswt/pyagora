@@ -1,5 +1,5 @@
 from theatre_ag import SynchronizingClock, TaskQueueActor
-from pagora import ContinuousOrderDrivenMarket, OrderBookClearingWorkflow, Stock, RandomTraderWorkflow, \
+from pyagora import ContinuousOrderDrivenMarket, OrderBookClearingWorkflow, Stock, RandomTraderWorkflow, \
     TradeRange, LimitBuyOrder, LimitSellOrder, SafeTradingAccount
 
 from random import Random
